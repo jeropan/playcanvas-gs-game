@@ -7,13 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    chunkSizeWarningLimit: 10000,
-    rollupOptions: {
-      external: ['playcanvas', 'gsplat'],
-    },
-  },
-  optimizeDeps: {
-    include: ['three'],
-    exclude: ['playcanvas', 'gsplat'],
   },
 });

@@ -10,7 +10,6 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "homepage": "https://jeropan.github.io/playcanvas-gs-game",
-  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
